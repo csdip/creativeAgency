@@ -46,7 +46,7 @@ const guidline = document.getElementById("guidline");
 guidline.innerHTML = `
         <div class="left">
             <img src="assets/img/shape-light.svg" alt="shape" class="bg-shape-light">
-            <div class="content">
+            <div class="content" data-aos="fade-right" data-aos-delay="200">
                 <h5 class="main-title"></h5>
             <div class="slider-btn">
                 <div class="btn prev-btn"></div>
@@ -56,7 +56,7 @@ guidline.innerHTML = `
         </div>
         <div class="right">
             <div class="slider-img">
-                <div class="content">
+                <div class="content" data-aos="fade-up" data-aos-delay="300">
                     <h6 class="guidline-title">Lean Product Roadmap</h6>
                     <p class="guidline-des"></p>
                 </div>
