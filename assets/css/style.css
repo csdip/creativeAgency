@@ -1,0 +1,412 @@
+/* HEADER CSS */
+#header {
+    height: 180px;
+}
+
+#header .logo {
+    width: 160px;
+}
+
+#header .main-menu {
+    padding: 58px 0;
+}
+
+#header::before {
+    content: '';
+    position: absolute;
+    background: var(--Primary-color);
+    width: 56%;
+    height: 180px;
+    top: 0;
+    right: 0px;
+    z-index: -1;
+}
+
+#header .main-menu li {
+    margin: 0 25px;
+}
+
+#header .main-menu li a {
+    font-size: 16px;
+    color: var(--Light-color);
+    transition: all .3s ease-in-out;
+}
+
+#header .main-menu li a:hover {
+    color: var(--Secondary-color);
+}
+
+#header .main-menu .btn {
+    margin-left: 40px;
+}
+
+
+/* HERO CSS */
+#hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: url(../img/hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    z-index: 1;
+}
+
+
+#hero .container {
+    position: relative;
+    height: 100%;
+}
+
+#hero .content {
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    transform: translate(-2%, -50%);
+    width: 46%;
+    z-index: 9;
+}
+
+#hero .content h1 {
+    font-size: 74px;
+    font-weight: var(--font-extrabold);
+    line-height: 1.19;
+}
+
+#hero .content p {
+    margin: 20px 0 40px;
+    color: var(--Secondary-color);
+}
+
+#hero .content .btn {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/* DESIGN CSS */
+#design .left {
+    width: 50%;
+    position: relative;
+}
+
+#design .wrapper .bg-shape {
+    position: absolute;
+    top: 35%;
+    right: -45px;
+    width: 100px;
+    z-index: 9;
+}
+
+#design .left .design-img {
+    background-size: cover;
+    width: 100%;
+}
+
+#design .left::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+#design .right {
+    position: relative;
+    background-color: var(--Secondary-color);
+    padding: 140px;
+    width: 50%;
+}
+
+#design .right .content h2 {
+    font-size: 60px;
+    line-height: 1;
+    font-weight: var(--font-extrabold);
+    color: var(--Light-color);
+}
+
+#design .right .content span {
+    color: var(--Primary-color);
+}
+
+#design .right .content p {
+    margin: 40px 0;
+}
+
+#design .right .content .btn-line {
+    position: relative;
+    background: none;
+    padding: 0;
+}
+
+#design .right .content .btn-line::before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: var(--Light-color);
+    transition: all .3s ease;
+}
+
+#design .right .content .btn-line:hover {
+    color: var(--Primary-color);
+}
+
+#design .right .content .btn-line:hover::before {
+    background: var(--Primary-color);
+}
+
+
+/* STEPS CSS */
+#steps {
+    margin-top: -160px;
+}
+
+#steps .wrapper .content {
+    position: relative;
+    width: 65%;
+    float: right;
+    background-color: var(--Primary-color);
+    padding: 230px 200px 230px 300px;
+}
+
+#steps .wrapper .content h3 {
+    position: absolute;
+    top: 50%;
+    left: -420px;
+    font-size: 62px;
+    font-weight: var(--font-extrabold);
+    color: var(--Secondary-color);
+    line-height: 1.2;
+    width: 530px;
+}
+
+#steps .wrapper .content li {
+    position: relative;
+}
+
+#steps .wrapper .content li:not(:last-child) {
+    margin-bottom: 100px;
+}
+
+#steps .wrapper .content span {
+    position: absolute;
+    color: var(--Light-color);
+    font-size: 80px;
+    font-weight: var(--font-extrabold);
+    top: -42px;
+    left: -40px;
+    opacity: 0.2;
+}
+
+#steps .wrapper .content h4 {
+    font-size: 19px;
+    /* margin-bottom: 20px; */
+    color: var(--Light-color);
+}
+
+#steps .wrapper .content p {
+    color: var(--Light-color);
+}
+
+
+
+/* GUIDLINE CSS */
+#guidline {
+    position: relative;
+}
+
+#guidline .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45%;
+    float: left;
+    z-index: 99;
+    background-color: var(--Secondary-color);
+    padding: 140px 100px 140px;
+}
+
+#guidline .left .bg-shape-light {
+    position: absolute;
+    top: 212px;
+    right: -69px;
+}
+
+#guidline .right {
+    position: relative;
+    float: right;
+    width: 65%;
+    transition: all .4s ease;
+}
+
+#guidline .right .slider-img{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/slide-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .4s ease-in-out;
+}
+
+#guidline .left .content {
+    width: 450px;
+    margin-left: auto;
+    transition: all .4s ease-in-out;
+}
+
+#guidline .left h5 {
+    font-size: 55px;
+    font-weight: var(--font-extrabold);
+    color: var(--Light-color);
+    margin-bottom: 40px;
+    line-height: 1.2;
+    transition: all .4s ease-in-out;
+}
+
+#guidline .left .slider-btn .btn {
+    border: 2px solid var(--Primary-color);
+    background-color: transparent;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    font-size: 22px;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 5px;
+}
+
+#guidline .left .slider-btn .prev-btn::before {
+    content: '\ea5f';
+    font-family: remixicon;
+    color: var(--Primary-color);
+}
+
+#guidline .left .slider-btn .next-btn::before {
+    content: '\ea6b';
+    font-family: remixicon;
+    color: var(--Primary-color);
+}
+
+
+#guidline .right .content {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    padding: 100px 40px 40px 0;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+#guidline .right .content h6 {
+    color: var(--Light-color);
+    font-size: 22px;
+    font-weight: var(--font-bold);
+}
+
+#guidline .right .content p {
+    color: var(--Light-color);
+    font-size: 20px;
+    text-align: right;
+}
+
+#guidline .right .slide {
+    width: 100%;
+}
+
+/* FOOTER CSS */
+
+#footer {
+    position: relative;
+    padding: 80px 0;
+}
+
+#footer .bg-shape {
+    position: absolute;
+    top: 112px;
+    left: 130px;
+}
+
+#footer h6 {
+    font-size: 55px;
+    color: var(--Secondary-color);
+    line-height: 1;
+    font-weight: var(--font-extrabold);
+    padding-left: 100px;
+}
+
+
+
+
+
+.theme {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 250px;
+    border: 1px solid;
+    z-index: 999;
+    background: #fff;
+    padding: 20px;
+}
+
+.theme__color {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #000;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+
+.red {
+    background-color: rgb(240, 54, 54);
+    margin-bottom: 10px;
+}
+
+.purple {
+    background-color: rgb(141, 54, 240);
+    margin-bottom: 10px;
+}
+
+.blue {
+    background-color: rgb(54, 57, 240);
+    margin-bottom: 10px;
+}
+
+.green {
+    background-color: rgb(65, 230, 153);
+}
+
+.theme__color:hover{
+    opacity: .8;
+}
+

@@ -1,0 +1,113 @@
+:root {
+  --Primary-color: #5779FF;
+  --Secondary-color: #111111;
+  --Para-color: #6F7487;
+  --Tomato-color: #FF5757;
+  --Light-color: #ffffff;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+}
+
+*,
+*::after,
+*::before,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 18px;
+  font-weight: var(--font-regular);
+  line-height: 1;
+  font-family: "Commissioner", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 34px;
+  color: var(--Secondary-color);
+  font-weight: var(--font-semibold);
+  line-height: 1.4;
+  font-family: "Commissioner", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  color: var(--Para-color);
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+button,
+.btn {
+  display: inline-block;
+  color: var(--Light-color);
+  background-color: var(--Primary-color);
+  font-weight: var(--font-bold);
+  font-size: 16px;
+  padding: 28px 36px;
+  cursor: pointer;
+  outline: none;
+  line-height: 1;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+
+
+button:hover,
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary{
+  background-color: var(--Secondary-color);
+}
+
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.section-title h2 {
+  font-size: 42px;
+  font-weight: var(--font-semibold);
+  margin-bottom: 30px;
+}

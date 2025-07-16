@@ -1,0 +1,138 @@
+.d-flex {
+  display: flex;
+}
+
+.d-none{
+  display: none;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start{
+  align-items: start;
+}
+
+.align-end{
+  align-items: end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.fix-x {
+  overflow-x: hidden;
+}
+
+.fix-y {
+  overflow-y: hidden;
+}
+
+.col{
+  width: 100%;
+  padding: 0 20px;
+}
+
+.col-2 {
+  width: 16.66%;
+  float: left;
+  padding: 0 20px;
+}
+
+.col-3 {
+  width: 25%;
+  float: left;
+  padding: 0 20px;
+}
+
+.col-4 {
+  width: 33.33%;
+  float: left;
+  padding: 0 20px;
+}
+
+.col-5 {
+  width: 41.66%;
+  float: left;
+  padding: 0 20px;
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+  padding: 0 20px;
+}
+
+.col-7 {
+  width: 58.47%;
+  float: left;
+  padding: 0 20px;
+}
+
+.col-8 {
+  width: 66.66%;
+  float: left;
+  padding: 0 20px;
+}
+
+.col-9 {
+  width: 76.92%;
+  float: left;
+  padding: 0 20px;
+}
+
+.col-10 {
+  width: 83.33%;
+  float: left;
+  padding: 0 20px;
+}
+
+.col-11 {
+  width: 91.74%;
+  float: left;
+  padding: 0 20px;
+}
+
+.col-12 {
+  width: 100%;
+  float: left;
+  padding: 0 20px;
+}
